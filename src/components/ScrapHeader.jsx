@@ -94,6 +94,8 @@ const ScrapHeader = () => {
               </div>
             </Container>
             <div className="position-relative">
+              <div className="blur_circle position-absolute"></div>
+              <div className="blur_circle2 position-absolute"></div>
               <Slider {...settings}>
                 <div className="px-3 hero-slide my-5">
                   <div className="position-relative">
@@ -128,7 +130,12 @@ const ScrapHeader = () => {
                                 r="6.5"
                                 fill="#00BFFF"
                               />
-                              <circle cx="10.5" cy="11" r="3.5" fill="#00BFFF" />
+                              <circle
+                                cx="10.5"
+                                cy="11"
+                                r="3.5"
+                                fill="#00BFFF"
+                              />
                             </svg>
                           </span>
                           <div>
@@ -146,10 +153,16 @@ const ScrapHeader = () => {
                           gravida.
                         </p>
                         <div className="d-flex align-items-center gap-2">
-                          <a href="#" className="text-center slider_social_media">
+                          <a
+                            href="#"
+                            className="text-center slider_social_media"
+                          >
                             <img src={Cart} alt="Cart" />
                           </a>
-                          <a href="#" className="text-center slider_social_media">
+                          <a
+                            href="#"
+                            className="text-center slider_social_media"
+                          >
                             <img src={Discord2} alt="Discord2" />
                           </a>
                           <a
@@ -196,7 +209,12 @@ const ScrapHeader = () => {
                                 r="6.5"
                                 fill="#00BFFF"
                               />
-                              <circle cx="10.5" cy="11" r="3.5" fill="#00BFFF" />
+                              <circle
+                                cx="10.5"
+                                cy="11"
+                                r="3.5"
+                                fill="#00BFFF"
+                              />
                             </svg>
                           </span>
                           <div>
@@ -214,10 +232,16 @@ const ScrapHeader = () => {
                           gravida.
                         </p>
                         <div className="d-flex align-items-center gap-2">
-                          <a href="#" className="text-center slider_social_media">
+                          <a
+                            href="#"
+                            className="text-center slider_social_media"
+                          >
                             <img src={Cart} alt="Cart" />
                           </a>
-                          <a href="#" className="text-center slider_social_media">
+                          <a
+                            href="#"
+                            className="text-center slider_social_media"
+                          >
                             <img src={Discord2} alt="Discord2" />
                           </a>
                           <a
@@ -264,7 +288,12 @@ const ScrapHeader = () => {
                                 r="6.5"
                                 fill="#00BFFF"
                               />
-                              <circle cx="10.5" cy="11" r="3.5" fill="#00BFFF" />
+                              <circle
+                                cx="10.5"
+                                cy="11"
+                                r="3.5"
+                                fill="#00BFFF"
+                              />
                             </svg>
                           </span>
                           <div>
@@ -282,10 +311,16 @@ const ScrapHeader = () => {
                           gravida.
                         </p>
                         <div className="d-flex align-items-center gap-2">
-                          <a href="#" className="text-center slider_social_media">
+                          <a
+                            href="#"
+                            className="text-center slider_social_media"
+                          >
                             <img src={Cart} alt="Cart" />
                           </a>
-                          <a href="#" className="text-center slider_social_media">
+                          <a
+                            href="#"
+                            className="text-center slider_social_media"
+                          >
                             <img src={Discord2} alt="Discord2" />
                           </a>
                           <a
