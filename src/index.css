@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&family=Unbounded:wght@400;500;600;700&display=swap");
+
+.slider_vertical {
+    background: linear-gradient(90.18deg, #0E141D 0%, #101822 100%);
+    box-shadow: -24px -6px 80px #000000, 0px 2.23431px 3.35146px rgba(0, 0, 0, 0.25), 0px 10.0544px 31.2803px rgba(0, 0, 0, 0.25), inset 0px 2.23431px 3.35146px #4C6484, inset 21.2259px 11.1715px 44.6862px #192535;
+    border-radius: 24.5774px;
+}
+
+.slider_bg_img {
+    background-image: url("./assets/img/svg/slider_bg.svg");
+}
+
+
+
+/* NAVBAR */
+
+.nav_hide {
+    position: fixed;
+    width: 100%;
+    background-color: #fff;
+    top: 0;
+    z-index: 999 !important;
+    left: -100%;
+    transition: ease-in-out 500ms;
+}
+
+
+
+.show_nav {
+    position: fixed;
+    width: 100%;
+    background-color: #000;
+    top: 0;
+    left: 0;
+    z-index: 999 !important;
+    transition: ease-in-out 500ms;
+}
+
+/* menu btn */
+
+.menu {
+    height: 20px;
+    width: 30px;
+    z-index: 100;
+}
+
+.line {
+    background-color: #fff;
+    border-radius: 10px;
+    content: "";
+    height: 3px;
+    position: absolute;
+}
+
+.line1 {
+    top: 0;
+    width: 100%;
+    left: 0;
+}
+
+.line2 {
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 0;
+    width: 75%;
+    transition: linear 200ms;
+    -webkit-transition: linear 200ms;
+    -moz-transition: linear 200ms;
+    -ms-transition: linear 200ms;
+    -o-transition: linear 200ms;
+}
+
+.menu:hover .line2 {
+    width: 100%;
+}
+
+.line3 {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.nav_links {
+    font-family: "Inter";
+    font-weight: 400;
+    color: #fff;
+    position: relative;
+}
+
+.nav_links {
+    color: #fff !important;
+}
+
+.nav_links:after {
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.nav_links:hover:after {
+    width: 100%;
+    left: 0;
+}
+
+.nav_bg {
+    background: linear-gradient(270deg, rgba(9, 12, 16, 0.12) 4.72%, rgba(9, 12, 16, 0.94) 12.5%, #090C10 90.54%, rgba(9, 12, 16, 0.23) 95.21%);
+    height: 66px;
+}
+
+.page-logo {
+    width: 100px;
+    height: 66px;
+}
+
+.page-logo img {
+    margin-top: -20px;
+}

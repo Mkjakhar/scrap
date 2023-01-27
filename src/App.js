@@ -8,11 +8,13 @@ import { Route, Routes } from "react-router-dom";
 import ScrapHeader from "./components/ScrapHeader";
 import WhoWe from "./components/WhoWe";
 import ScrapFooter from "./components/ScrapFooter";
+import ScrapSlider from "./components/ScrapSlider";
 function App() {
   return (
     <>
       <ScrapHeader />
       <WhoWe />
+      <ScrapSlider />
       <ScrapFooter />
     </>
   );

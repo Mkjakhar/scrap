@@ -20,7 +20,7 @@ const ScrapFooter = () => {
               pell.
             </span>
           </p>
-          <ul className="ps-0 mb-0 d-flex justify-content-center gap-3 gap-md-5">
+          <ul className="ps-0 mb-0 d-flex justify-content-center gap-2 gap-md-5">
             <li>
               <a
                 href="#"
