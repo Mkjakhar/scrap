@@ -14,29 +14,19 @@ const ScrapSlider = () => {
   var setting = {
     dots: false,
     infinite: true,
-    autoplay: false,
+    autoplay: true,
     arrows: false,
     vertical: true,
     verticalSwiping: true,
     speed: 500,
-    slidesToShow: 3,
+    slidesToShow: 3.25,
     slidesToScroll: 1,
+    centerMode: true,
     responsive: [
       {
         breakpoint: 768,
         settings: {
-          slidesToShow: 2,
-          autoplay: false,
-          autoplaySpeed: 1500,
-          pauseOnHover: false,
-          slidesToScroll: 1,
-          dots: true,
-        },
-      },
-      {
-        breakpoint: 460,
-        settings: {
-          slidesToShow: 2,
+          slidesToShow: 3.2,
           autoplay: true,
           autoplaySpeed: 1500,
           pauseOnHover: false,
@@ -49,7 +39,7 @@ const ScrapSlider = () => {
   var imagesslide = {
     dots: false,
     infinite: true,
-    autoplay: false,
+    autoplay: true,
     arrows: false,
 
     fade: true,
@@ -70,12 +60,17 @@ const ScrapSlider = () => {
           </h3>
           <div className="col-lg-6">
             <div className="">
-              <Slider className="" asNavFor={nav2} ref={slider1} {...setting}>
+              <Slider
+                className="review_slider"
+                asNavFor={nav2}
+                ref={slider1}
+                {...setting}
+              >
                 <div className="slider_vertical px-4 py-4">
                   <p className="m-0 ff_inter text-white fs_2xl fw_semibold">
                     REVIEW YOUR STATS!
                   </p>
-                  <p className="m-0 ff_poppins text-white opacity_05 pt-2 fw_regular">
+                  <p className="m-0 ff_poppins text-white opacity_05 pt-2 fw_regular fs_md">
                     Tincidunt laoreet integer ut aenean rhoncus.
                   </p>
                 </div>
@@ -83,7 +78,7 @@ const ScrapSlider = () => {
                   <p className="m-0 ff_inter text-white fs_2xl fw_semibold">
                     PLAY TO EARN
                   </p>
-                  <p className="m-0 ff_poppins text-white opacity_05 pt-2 fw_regular">
+                  <p className="m-0 ff_poppins text-white opacity_05 pt-2 fw_regular fs_md">
                     Tincidunt laoreet integer ut aenean rhoncus.
                   </p>
                 </div>
@@ -91,7 +86,7 @@ const ScrapSlider = () => {
                   <p className="m-0 ff_inter text-uppercase text-white fs_2xl fw_semibold">
                     Trade your items!
                   </p>
-                  <p className="m-0 ff_poppins text-white opacity_05 pt-2 fw_regular">
+                  <p className="m-0 ff_poppins text-white opacity_05 pt-2 fw_regular fs_md">
                     Tincidunt laoreet integer ut aenean rhoncus.
                   </p>
                 </div>
@@ -99,14 +94,14 @@ const ScrapSlider = () => {
                   <p className="m-0 ff_inter text-white fs_2xl fw_semibold">
                     REVIEW YOUR STATS!
                   </p>
-                  <p className="m-0 ff_poppins text-white opacity_05 pt-2 fw_regular">
+                  <p className="m-0 ff_poppins text-white opacity_05 pt-2 fw_regular fs_md">
                     Tincidunt laoreet integer ut aenean rhoncus.
                   </p>
                 </div>
               </Slider>
             </div>
           </div>
-          <div className="col-lg-6">
+          <div className="col-lg-5">
             <div className="slider_bg_img">
               <Slider asNavFor={nav1} ref={slider2} {...imagesslide}>
                 <div className="d-flex justify-content-center">
