@@ -155,12 +155,12 @@ header {
   z-index: 1;
 }
 
-.slick-active.slick-current .slide_overlay {
+.hero_slider .slick-active.slick-current .slide_overlay {
   background: unset;
   z-index: unset;
 }
 
-.slick-active .slide_overlay {
+.hero_slider .slick-active .slide_overlay {
   background: rgba(7, 10, 14, 0.84);
   z-index: 1;
 }
@@ -237,18 +237,18 @@ footer ul li a:hover {
 }
 
 @media (min-width: 992px) {
-  .slick-active .slide_overlay {
+  .hero_slider .slick-active .slide_overlay {
     background: unset;
     z-index: unset;
   }
-  .slick-active {
+  .hero_slider .slick-active {
     scale: 1.03;
   }
-  .slick-active.slick-current .slide_overlay {
+  .hero_slider .slick-active.slick-current .slide_overlay {
     background: rgba(7, 10, 14, 0.84);
     z-index: 1;
   }
-  .slick-active.slick-current {
+  .hero_slider .slick-active.slick-current {
     scale: unset;
   }
 }

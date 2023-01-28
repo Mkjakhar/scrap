@@ -14,7 +14,7 @@ const ScrapSlider = () => {
   var setting = {
     dots: false,
     infinite: true,
-    autoplay: true,
+    autoplay: false,
     arrows: false,
     vertical: true,
     verticalSwiping: true,
@@ -26,7 +26,7 @@ const ScrapSlider = () => {
         breakpoint: 768,
         settings: {
           slidesToShow: 2,
-          autoplay: true,
+          autoplay: false,
           autoplaySpeed: 1500,
           pauseOnHover: false,
           slidesToScroll: 1,
@@ -49,7 +49,7 @@ const ScrapSlider = () => {
   var imagesslide = {
     dots: false,
     infinite: true,
-    autoplay: true,
+    autoplay: false,
     arrows: false,
 
     fade: true,

@@ -96,7 +96,7 @@ const ScrapHeader = () => {
             <div className="position-relative">
               <div className="blur_circle position-absolute"></div>
               <div className="blur_circle2 position-absolute"></div>
-              <Slider {...settings}>
+              <Slider {...settings} className="hero_slider">
                 <div className="px-3 hero-slide my-5">
                   <div className="position-relative">
                     <div className="slide_overlay position-absolute w-100 h-100 top-0 start-0"></div>
